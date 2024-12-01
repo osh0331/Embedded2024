@@ -1,3 +1,3 @@
-# Embedded System 2024
+# Embedded System - Project
 Konkuk Univerity
 team_tenten
