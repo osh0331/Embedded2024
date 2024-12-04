@@ -1,4 +1,7 @@
 # Embedded_System_2024
+Konkuk Univerity
+team_tenten
+
 
 ## 🔖 Intro
 Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 AI 로봇을 결합한 기상 보조 로봇입니다. 
@@ -94,5 +97,5 @@ Embedded_System_2024
 
 ## Video
 
-Konkuk Univerity: team_tenten
+
 
