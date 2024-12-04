@@ -22,13 +22,77 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
        
   - ### 2️⃣ 디바이스 동작
     #### 1. 어플리케이션을 통해 사전에 설정한 시간에 알람 동작
+    
     #### 2. 카메라를 통한 사용자 인식 시 주행 가능한 state에 진입
+    
     #### 3. 서보 모터 제어를 통한 지속적인 사용자 트래킹
+    
     #### 4. 4개의 방향센서를 통한 사용자와의 거리 유지, 장애물 회피 주행
+    
     #### 5. 로봇 전면부에 위치한 디스플레이를 통해 알람 해제, 동작 종료
     
     
   - ### 3️⃣ 서버 및 프론트
+    #### 1. 서버
+    
+    #### 2. AOS
+    
+    #### 3. DEVICE UI
+
+## File Architecture
+```
+Embedded_System_2024
+    │ 
+    ├── App 
+    │    ├── Frontend
+    │    |    ├── UI_pages
+    │    |    ├── UI_modules
+    |    |    ├── viewmodel
+    |    |    ├── retrofit
+    |    |    ├── navigation
+    |    |    └── data
+    |    └── Backend
+    │          ├── user
+    │          |    ├── controller
+    |          |    ├── service
+    |          |    ├── dto
+    |          |    ├── model
+    |          |    ├── exception
+    |          |    ├── exception_handler
+    |          |    ├── repository
+    |          |    └── validation
+    |          └── device
+    │               ├── controller
+    |               ├── service
+    |               ├── dto
+    |               ├── model
+    |               ├── exception
+    |               ├── exception_handler
+    |               ├── repository
+    |               └── validation             
+    ├── arduino_src   
+    |    ├── src
+    |    |    └── HW_Control.ino
+    |    └──include
+    |         ├── Constants
+    |         ├── CUP
+    |         ├── Queue
+    |         ├── StepperMulti
+    |         └── Waterpump
+    └── python_src    
+        ├── UI
+        |    ├── src
+        |    |    ├── CoffeeBara.html
+        |    |    ├── CoffeeBara.css
+        |    |    └── CoffeeBara.js
+        |    └── images
+        └── main
+            ├── model.pth
+            └── main.py
+```
+
+
+## Video
 
 Konkuk Univerity: team_tenten
 
