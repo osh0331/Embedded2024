@@ -1,7 +1,7 @@
 # Embedded_System_2024
-<br>
-Konkuk Univerity
-team_tenten
+  <br>
+  Konkuk Univerity
+  team_tenten
 
 
 ## 🔖 Intro
