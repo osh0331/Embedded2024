@@ -26,20 +26,20 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
   사람의 전신을 인식하여야 하기 때문에 cctv를 통해 수집된 데이터셋을 사용하였습니다. 따라서 다양한 각도에서 바라본 다량의 사람 이미지를 학습시켜 일부가 장애물에 의해 보이지 않는 상황에서도 높은 인식률을 갖도록 만듭니다. 또한, 로봇이 빠르게 동작하기 위해서 간단하고 가벼운 네트워크인 SSD-MobileNet v2를 이용하여 모델을 생성하였습니다.
        
 ### 2️⃣ 디바이스 동작
-  - #### 전체 흐름도
-    <img src="images/state_machine_total.png" width="805" height="422">
+#### 전체 흐름도 
+  <img src="images/state_machine_total.png" width="805" height="422">
     
-  - #### 1. 초기 설정
-    <img src="images/state_machine_one.png" width="786" height="689">
+#### 1. 초기 설정
+  <img src="images/state_machine_one.png" width="786" height="689">
     
-  - #### 2. 사용자 기상인식
-    <img src="images/state_machine_two.png" width="789" height="796">
+#### 2. 사용자 기상인식
+  <img src="images/state_machine_two.png" width="789" height="796">
     
-  - #### 3. 시스템 동작
-    <img src="images/state_machine_three.png" width="786" height="696">
+#### 3. 시스템 동작
+  <img src="images/state_machine_three.png" width="786" height="696">
   
-  - #### 4. 시스템 종료
-    <img src="images/state_machine_four.png" width="789" height="644">
+#### 4. 시스템 종료
+  <img src="images/state_machine_four.png" width="789" height="644">
     
     
 ### 3️⃣ 서버 및 프론트
