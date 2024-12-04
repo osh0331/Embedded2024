@@ -27,19 +27,19 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
        
 ### 2️⃣ 디바이스 동작
   - #### 전체 흐름도
-    <img src="images/state_machine_total.png" width="700" height="400">
+    <img src="images/state_machine_total.png" width="805" height="422">
     
   - #### 1. 초기 설정
-    <img src="images/state_machine_one.png" width="700" height="400">
+    <img src="images/state_machine_one.png" width="786" height="689">
     
   - #### 2. 사용자 기상인식
-    <img src="images/state_machine_two.png" width="700" height="400">
+    <img src="images/state_machine_two.png" width="789" height="796">
     
   - #### 3. 시스템 동작
-    <img src="images/state_machine_three.png" width="700" height="400">
+    <img src="images/state_machine_three.png" width="786" height="696">
   
   - #### 4. 시스템 종료
-    <img src="images/state_machine_four.png" width="700" height="400">
+    <img src="images/state_machine_four.png" width="789" height="644">
     
     
 ### 3️⃣ 서버 및 프론트
