@@ -26,7 +26,7 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
        
 ### 2️⃣ 디바이스 동작
 #### 전체 흐름도 
-  <img src="images/state_machine_total.png" width="805" height="422">
+  <img src="images/state_machine_total.png" width="805" height="382">
     
 #### 1. 초기 설정
   <img src="images/state_machine_one.png" width="786" height="689">
