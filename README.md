@@ -16,7 +16,7 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
 또한, 기기는 고양이의 모습을 본떠 사용자로 하여금 친근한 이미지를 나타내고자 합니다.
 
 ## 📸 Overview
-  <img src="images/project_summary.png" width="1000" height="428">
+  <img src="images/project_summary.png" width="1000" height="518">
 
 ## 👀 Main feature
 ### 1️⃣ AI 모델로 사용자 인식
