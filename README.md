@@ -38,7 +38,7 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
        
 ### 2️. 디바이스 동작
 #### 전체 흐름도 
-  <img src="images/system_total.png" width="805" height="382">
+  <img src="images/system_total.png" width="805" height="402">
     
 #### 초기 설정
   <img src="images/system1.png" width="486" height="389">
@@ -47,10 +47,10 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
   <img src="images/system2.png" width="489" height="396">
     
 #### 시스템 동작
-  <img src="images/system3.png" width="486" height="396">
+  <img src="images/system3.png" width="486" height="416">
   
 #### 시스템 종료
-  <img src="images/system4.png" width="489" height="324">
+  <img src="images/system4.png" width="489" height="344">
     
     
 ### 3️. 사용자 서비스 영역
