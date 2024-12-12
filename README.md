@@ -55,14 +55,14 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
     
 ### 3️. 사용자 서비스 영역
 
-### App
+### > App
 <img src="images/App1.png" width="800" height="430">
 <img src="images/App2.png" width="800" height="520">
 어플리케이션을 통해 알람을 설정할 수 있습니다. 알람음, 알람 소리의 크기, 알람 날짜와 시간을 직접 설정할 수 있으며 설정된 알람 목록을 볼 수 있습니다.  
 알람을 설정한 뒤에도 알람 목록에서 편집 기능을 통해 알람 수정 및 삭제 가능합니다.
 
     
-### Device
+### > Device
 <img src="images/Device1.png" width="800" height="430">
 <img src="images/Device2.png" width="460" height="450">
 알람이 울리기 시작하면, 로봇의 디스플레이 화면에 "OFF" 버튼이 표시됩니다. 사용자가 해당 버튼을 눌러 알람을 끄는 것이 시스템 종료 조건입니다.
