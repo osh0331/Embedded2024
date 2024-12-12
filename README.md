@@ -5,17 +5,17 @@
   <br>
 
 
-## 👩‍💻 Intro
+# 👩‍💻 Intro
 Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 AI 자율주행을 결합한 기상 보조 로봇입니다. 
 
-## 💡 Inspiration
+# 💡 Inspiration
 현대 사회에서 시간 관리는 필수적이며, 시간 관리의 시작은 정확한 기상 시간에서 비롯됩니다.
 휴대폰의 알람이 다양한 기능을 많이 제공하다 하더라도 알람을 끄고 다시 잠에 드는게 현실입니다.
 따라서, 저희는 관점을 바꿔 하드웨어적으로 쉽게 끌 수 없는 알람을 만들기로 했습니다.
 
 또한, 기기는 고양이의 모습을 본떠 사용자로 하여금 친근한 이미지를 나타내고자 합니다.
 
-## 📸 Overview
+# 📸 Overview
   <img src="images/project_summary.png" width="1000" height="518">
   전체 시스템은 크게 2개의 Controller Unit이 제어합니다.
   
@@ -30,17 +30,17 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
   <br>
   <br>
 
-## 🎯 Main feature
-### 1️. AI 모델을 활용한 사용자 인식
+# 🎯 Main feature
+## 1️. AI 모델을 활용한 사용자 인식
   <br>
   인공지능 학습을 통해 human detection을 수행하는 AI 모델을 생성하였습니다. 임베디드 환경에서의 동작을 위한 비교적 가벼운 tflite 파일을 사용합니다. 
   사람의 전신을 인식하여야 하기 때문에 cctv를 통해 수집된 데이터셋을 사용하였고, 따라서 다양한 각도에서 바라본 다량의 사람 이미지를 학습시켰기에 신체의 일부가 장애물에 의해 보이지 않는 상황에서도 높은 인식률을 갖도록 만들었습니다.  
   <br>
   로봇은 이 AI 모델을 통해 사용자를 인식하고, 아두이노에 사용자의 방향 정보를 전송합니다. 아두이노는 전달받은 방향값을 활용해 카메라의 시야에서 벗어나지 않도록 카메라와 연결된 서보모터를 제어하게 됩니다. 
 
-### 2. 자율주행
+## 2. 자율주행
   <br>
-  
+  <img src="images/driving.png" width="695" height="382">
   이 로봇은 사용자의 기상을 돕기 위해 사용자로부터 도망가는 방식으로 작동합니다. 그러나 집안 내 장애물의 존재를 고려해야 하므로, 장애물의 위치를 파악하고 최적의 경로를 찾아 주행할 수 있어야 합니다.  
 
   로봇은 거리 센서를 통해 장애물을 탐지하고, 이를 회피하는 알고리즘을 활용하여 자율적으로 주행합니다. 또한, 카메라를 통해 얻은 사용자의 위치 정보를 바탕으로, 사용자의 반대 방향으로 이동하는 것을 기본 동작 원리로 삼고 있습니다.  
@@ -49,7 +49,7 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
 
        
     
-### 3️. 사용자 서비스 영역
+## 3️. 사용자 서비스 영역
 
 ### > App
 <img src="images/App1.png" width="800" height="430">
@@ -66,24 +66,24 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
 
 
 
-## 💬 Finite State Machine
-#### 전체 흐름도 
+# 💬 Finite State Machine
+### 전체 흐름도 
   <img src="images/system_total.png" width="695" height="382">
     
-#### 초기 설정
+### 초기 설정
   <img src="images/system1.png" width="486" height="389">
     
-#### 사용자 기상인식
+### 사용자 기상인식
   <img src="images/system2.png" width="489" height="396">
     
-#### 시스템 동작
+### 시스템 동작
   <img src="images/system3.png" width="486" height="416">
   
-#### 시스템 종료
+### 시스템 종료
   <img src="images/system4.png" width="489" height="344">
     
 
-## File Architecture
+# File Architecture
 ```
 Embedded_System_2024
     │ 
