@@ -5,17 +5,17 @@
   <br>
 
 
-# 👩‍💻 Intro
+## 👩‍💻 Intro
 Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 AI 자율주행을 결합한 기상 보조 로봇입니다. 
 
-# 💡 Inspiration
+## 💡 Inspiration
 현대 사회에서 시간 관리는 필수적이며, 시간 관리의 시작은 정확한 기상 시간에서 비롯됩니다.
 휴대폰의 알람이 다양한 기능을 많이 제공하다 하더라도 알람을 끄고 다시 잠에 드는게 현실입니다.
 따라서, 저희는 관점을 바꿔 하드웨어적으로 쉽게 끌 수 없는 알람을 만들기로 했습니다.
 
 또한, 기기는 고양이의 모습을 본떠 사용자로 하여금 친근한 이미지를 나타내고자 합니다.
 
-# 📸 Overview
+## 📸 Overview
   <img src="images/project_summary.png" width="1000" height="518">
   전체 시스템은 크게 2개의 Controller Unit이 제어합니다.
   
@@ -30,7 +30,7 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
   <br>
   <br>
 
-# 🎯 Main feature
+## 🎯 Main feature
 ## 1️. AI 모델을 활용한 사용자 인식
   <br>
   인공지능 학습을 통해 human detection을 수행하는 AI 모델을 생성하였습니다. 임베디드 환경에서의 동작을 위한 비교적 가벼운 tflite 파일을 사용합니다. 
@@ -66,7 +66,7 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
 
 
 
-# 💬 Finite State Machine
+## 💬 Finite State Machine
 ### 전체 흐름도 
   <img src="images/system_total.png" width="695" height="382">
     
@@ -83,7 +83,7 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
   <img src="images/system4.png" width="489" height="344">
     
 
-# File Architecture
+## File Architecture
 ```
 Embedded_System_2024
     │ 
