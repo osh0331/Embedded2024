@@ -93,45 +93,21 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
 Embedded_System_2024
     │ 
     ├── App 
-    │    ├── Frontend
-    │    |    ├── UI_pages
-    │    |    ├── UI_modules
-    |    |    ├── viewmodel
-    |    |    ├── retrofit
-    |    |    ├── navigation
-    |    |    └── data
-    |    └── Backend
-    │          ├── user
-    │          |    ├── controller
-    |          |    ├── service
-    |          |    ├── dto
-    |          |    ├── model
-    |          |    ├── exception
-    |          |    ├── exception_handler
-    |          |    ├── repository
-    |          |    └── validation
-    |          └── device
-    │               ├── controller
-    |               ├── service
-    |               ├── dto
-    |               ├── model
-    |               ├── exception
-    |               ├── exception_handler
-    |               ├── repository
-    |               └── validation             
-    ├── Arduino_src   
-    |    └── motorcontrol.ino
+    │    └── lib
+    |          └── main.dart 
+    ├── arduino_src   
+    |    └── main.ino
     |    
-    └── python_src    
-        ├── UI
-        |    ├── src
-        |    |    ├── CoffeeBara.html
-        |    |    ├── CoffeeBara.css
-        |    |    └── CoffeeBara.js
-        |    └── images
-        └── main
-            ├── mainThread.py
-            └── person.tflite
+    ├── python_src    
+    |    ├── main
+    |    |     ├── Threads.py
+    |    |     └── person.tflite
+    |    └── server
+    |          └── Server.pyz
+    └── UI
+         ├── tenten.css
+         ├── tenten.html
+         └── tenten.js
 ```
 
 
