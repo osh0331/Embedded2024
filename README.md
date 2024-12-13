@@ -3,10 +3,13 @@
   <br>
   Team_tenten
   <br>
+  <br>
 
 
 ## 👩‍💻 Intro
 Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 AI 자율주행을 결합한 기상 보조 로봇입니다. 
+<br>
+<br>
 
 ## 💡 Inspiration
 현대 사회에서 시간 관리는 필수적이며, 시간 관리의 시작은 정확한 기상 시간에서 비롯됩니다.
@@ -14,6 +17,7 @@ Speed Wakegon은 사용자의 확실한 기상을 도와주는 알람시계와 A
 따라서, 저희는 관점을 바꿔 하드웨어적으로 쉽게 끌 수 없는 알람을 만들기로 했습니다.
 
 또한, 기기는 고양이의 모습을 본떠 사용자로 하여금 친근한 이미지를 나타내고자 합니다.
+<br>
 
 ## 📸 Overview
   <img src="images/project_summary.png" width="1000" height="518">
